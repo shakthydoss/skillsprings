@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+        <meta http-equiv="x-ua-compatible" content="IE=9">
+        <link rel="stylesheet" href="static/css/app.css">
+    </head>
+    <body >
+        <div id="swipe_area" class="container">
+            <img id="image" src="flashcards/fruits/1.jpeg">
+        </div>
+
+        <!--  Modal -->
+        <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Select the Category</p>
+                <br>
+                <select name="category" id="category">
+                    <option value="fruits">Fruits</option>
+                    <option value="numbers">Numbers</option>
+                    <option value="month">Month</option>
+                    <option value="transportation">Transportation</option>
+                    <option value="vegetables">Vegetables</option>
+                    <option value="alphabet">Alphabet</option>
+                </select>
+                <br>
+                <button  class="model_submit">Submit</button>
+            </div>
+        </div>
+
+    </body>
+
+    <script src="static/js/jquery.min.js"></script>
+    <script src="static/js/jquery.touchSwipe.min.js"></script>
+    <script src="static/js/data.js"></script>
+    <script src="static/js/app.js"></script>
+
+</html>
